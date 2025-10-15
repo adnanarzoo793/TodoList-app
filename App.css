@@ -1,0 +1,52 @@
+form{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+form input{
+    flex-basis: 80%;
+    height: 40px;
+}
+form button{
+    flex-basis: 20%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.outerdiv{
+    width: 1150;
+    margin: auto;
+}
+.outerdiv ul{
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 50px;
+    list-style: none;
+}
+.outerdiv li{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.outerdiv ul li span{
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+span:hover{
+ background-color: red;
+}
+.completedodo{
+    text-decoration: line-through;
+    color: red;
+    background-color: yellow;
+}
